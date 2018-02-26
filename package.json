@@ -1,6 +1,6 @@
 {
   "name": "cz-conventional-changelog-line-length",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Fork of the cz-conventional-changelog with max subject length 120 and word wrap to 79.",
   "main": "index.js",
   "scripts": {
