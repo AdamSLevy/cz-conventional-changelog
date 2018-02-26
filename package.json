@@ -1,19 +1,19 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "name": "cz-conventional-changelog-line-length",
+  "version": "2.2.0",
+  "description": "Fork of the cz-conventional-changelog with max subject length 120 and word wrap to 79.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/AdamSLevy/cz-conventional-changelog-line-length",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/AdamSLevy/cz-conventional-changelog-line-length.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Adam Levy <theadamlevy@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
@@ -27,7 +27,7 @@
     "semantic-release": "^6.3.2"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
